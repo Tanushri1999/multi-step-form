@@ -63,14 +63,9 @@ This is a full-stack MERN project that implements a **Multi-Step User Profile Up
 - `GET /api/user/countries`
 - `GET /api/user/states/:country`
 - `GET /api/user/cities/:country/:state`
-- `POST /api/user/save` (multipart/form-data)
+- `POST /api/user/save` 
 
 ---
 
-## 🧪 Local Development Setup
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/multi-step-profile-form.git
-   cd multi-step-profile-form
 
