@@ -1,0 +1,25 @@
+[
+    {
+      "country": "India",
+      "states": [
+        {
+          "name": "Uttar Pradesh",
+          "cities": ["Lucknow", "Noida", "Varanasi"]
+        },
+        {
+          "name": "Delhi",
+          "cities": ["New Delhi", "Dwarka", "Rohini"]
+        }
+      ]
+    },
+    {
+      "country": "USA",
+      "states": [
+        {
+          "name": "California",
+          "cities": ["Los Angeles", "San Francisco"]
+        }
+      ]
+    }
+  ]
+  
