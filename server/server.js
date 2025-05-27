@@ -24,5 +24,8 @@ if (!fs.existsSync(uploadPath)) {
 app.use("/uploads", express.static("uploads"));
 app.use("/api/user", userRoutes);
 
+app.get("/", (req, res) => {
+  res.send("✅ API is live. Use /api/user routes.");
+});
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
