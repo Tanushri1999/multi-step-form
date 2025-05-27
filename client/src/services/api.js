@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_USER = 'http://localhost:5050/api/user';
+const API_BASE_USER = 'https://multi-step-form-1-nk2w.onrender.com/api/user';
 //const API_BASE_LOCATION = 'http://localhost:5050/api/location';
 export const checkUsernameAvailability = async (username) => {
   const { data } = await axios.get(`${API_BASE_USER }/check-username`, { params: { username } });
@@ -24,7 +24,7 @@ export const getCities = async (country, state) => {
 
 export const saveUser = async (formData) => {
   // formData should be FormData instance due to file upload
-  const { data } = await axios.post("http://localhost:5050/api/user/save", formData, {
+  const { data } = await axios.post("https://multi-step-form-1-nk2w.onrender.com/api/user/save", formData, {
     headers: {
       'Content-Type': 'multipart/form-data'
     },
